@@ -1,0 +1,1376 @@
+/*===========================PAGE CSS===========================*/
+/*===========================PAGE CSS===========================*/
+/*===========================PAGE CSS===========================*/
+
+
+
+/*==IMPORTATION POLICE==*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/*==FIN IMPORTATION POLICE==*/
+
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 1 D'ACCEUIL=================*/
+/*=================PAGE PRINCIPALE PARTIE 1 D'ACCEUIL=================*/
+/*==STYLE DE LA PAGE==*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*==FIN STYLE DE LA PAGE==*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+/*==BOX DE LA NAVBAR==*/
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    background: black;
+    position: fixed;
+    z-index: 20;
+}
+
+/*==FIN BOX DE LA NAVBAR==*/
+
+
+
+
+/*==BOX DU LOGO==*/
+.logo-container,
+.nav-links {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+/*==FIN BOX DU LOGO==*/
+
+
+
+
+/*==STYLE DU LOGO==*/
+.logo {
+    font-weight: 500;
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+nav {
+    flex: 1;
+}
+
+/*==FIN STYLE DU LOGO==*/
+
+
+
+
+/*==STYLE DES BOUTONS NAVBAR==*/
+.nav-links {
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-bottom: 2px orange solid;
+}
+
+/*==FIN STYLE DES BOUTONS NAVBAR==*/
+
+
+
+
+/*==STYLE DU FOND DE LA PAGE PRINCIPALE==*/
+/* couleur vert #020B05*/
+#backgroundprincipale {
+    background: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/*==FIN STYLE DU FOND DE LA PAGE PRINCIPALE==*/
+
+
+
+
+/*==STYLE DE L'IMAGE==*/
+.imagefond {
+    width: 55%;
+    position: absolute;
+    left: 45%;
+    height: 90%;
+    top: 10%;
+}
+
+/*==FIN STYLE DE L'IMAGE==*/
+
+
+
+/*==STYLE DU TITRE PRINCIPALE==*/
+#titre1 {
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 7%;
+    font-size: 60px;
+}
+
+/*==FIN STYLE DU TITRE PRINCIPALE==*/
+
+
+
+
+/*==CHANGER COULEUR EN ORANGE==*/
+#titreorange {
+    color: orange;
+}
+
+/*==FIN CHANGER COULEUR EN ORANGE==*/
+
+
+
+
+/*==STYLE SUR TITRE==*/
+#surtitre {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 7.5%;
+    font-size: 15px;
+}
+
+/*==FIN STYLE SUR TITRE==*/
+
+
+
+
+/*==BOX BOUTON JOINDRE==*/
+.boxnousjoindre button {
+    border: 4px solid orange;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+.boxnousjoindre button:hover {
+    background: orange;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+
+/*==FIN BOX BOUTON JOINDRE==*/
+
+
+
+
+/*==TEXTE BOUTON JOINDRE==*/
+#titrenousjoindre {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#titrenousjoindre:hover {
+    color: orange;
+}
+
+/*==FIN TEXTE BOUTON JOINDRE==*/
+
+
+
+
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 2 JUNGLE=================*/
+/*=================PAGE PRINCIPALE PARTIE 2 JUNGLE=================*/
+/*==BOX PRINCIAPLE JUNGLE==*/
+#boxjungle {
+    width: 100%;
+    height: 110vh;
+    background: white;
+    position: absolute;
+    top: 100vh
+}
+
+/*==FIN BOX PRINCIAPLE JUNGLE==*/
+
+
+
+
+
+/*==BOX TITRE JUNGLE==*/
+.boxtitrejungle {
+    margin-top: 10%;
+}
+
+#titrejungle {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+#titreorangebarre {
+    color: orange;
+    border-bottom: 4px solid orange;
+}
+
+/*==FIN BOX TITRE JUNGLE==*/
+
+
+
+
+/*==BOX SOUS TITRE JUNGLE==*/
+.boxsoutitrejungle {
+    margin-top: 8%;
+}
+
+#soutitrejungle {
+    font-size: 26px;
+    text-align: center;
+}
+
+/*==FIN BOX SOUS TITRE JUNGLE==*/
+
+
+
+
+/*==BOX TEXTE JUNGLE==*/
+.boxtextejungle {
+    margin-top: 5%;
+}
+
+#textejungle {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*==FIN BOX TEXTE JUNGLE==*/
+
+
+
+
+
+/*==BOX BOUTON JUNGLE==*/
+
+
+.boxboutonjungle button {
+    margin-top: 5%;
+    margin-left: 32%;
+    width: 35%;
+    height: 7%;
+    border: 4px solid orange;
+    border-radius: 50px;
+    background: white;
+    color: black;
+    font-size: 25px;
+    outline: none;
+}
+
+
+.boxboutonjungle button:hover {
+    background: orange;
+    cursor: pointer;
+    outline: none;
+
+}
+
+/*==FIN BOX BOUTON JUNGLE==*/
+
+
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 3 A PROPOS=================*/
+/*=================PAGE PRINCIPALE PARTIE 3 A PROPOS=================*/
+
+/*==BOX PRINCIPALE A PROPOS==*/
+#boxapropos {
+    width: 100%;
+    height: 110vh;
+    background: black;
+    position: absolute;
+    top: 210vh;
+}
+
+/*==FIN BOX PRINCIPALE A PROPOS==*/
+
+
+
+
+/*==STYLE IMAGE DES TETES==*/
+#imagefond1 {
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: 5;
+}
+
+#imagefond2 {
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: 36%;
+    left: 8%;
+    z-index: 4;
+}
+
+#imagefond3 {
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: 56%;
+    left: 20%;
+    z-index: 3;
+}
+
+/*==FIN STYLE IMAGE DES TETES==*/
+
+
+
+
+/*==BOX TITRE A PROPOS==*/
+.boxtitreapropos {
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+
+#titreapropos {
+    color: white;
+    font-size: 50px;
+}
+
+/*==FIN BOX TITRE A PROPOS==*/
+
+
+
+
+/*==BOX TEXTE A PROPOS==*/
+.boxtexte1apropos {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    width: 40%;
+}
+
+#texte1apropos {
+    color: white;
+    font-size: 18px;
+}
+
+
+.boxtexte2apropos {
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    width: 40%;
+}
+
+#texte2apropos {
+    color: white;
+    font-size: 18px;
+}
+
+/*==FIN BOX TEXTE A PROPOS==*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 5 CONTACT=================*/
+/*=================PAGE PRINCIPALE PARTIE 5 CONTACT=================*/
+
+
+/*==BOX PRINCIPALE CONTACT==*/
+#boxprincipalecontact {
+    background: white;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 320vh;
+}
+
+/*==FIN BOX PRINCIPALE CONTACT==*/
+
+
+/*==BOX CONTACT PARTIE DE GAUCHE==*/
+/*==BOX BOUTON==*/
+.boxboutoncontact input {
+    display: block;
+    margin-left: 50%;
+    margin-top: 4%;
+    transform: translate(-50%, -50%);
+}
+
+.boxboutoncontact textarea {
+    margin-left: 50%;
+    margin-top: 70px;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 120px;
+    min-width: 500px;
+    min-height: 120px;
+    display: block;
+}
+
+
+/*==STYLE BOUTON==*/
+#toName {
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: black;
+    border-bottom: 3px solid orange;
+    outline: none;
+}
+
+#fromName {
+    margin-top: 1%;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: black;
+    border-bottom: 3px solid orange;
+    outline: none;
+}
+
+#mail {
+    margin-top: 1%;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: black;
+    border-bottom: 3px solid orange;
+    outline: none;
+}
+
+#button1 {
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 3px solid orange;
+    background: orange;
+    cursor: pointer;
+    outline: none;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -48px;
+}
+
+#button1:hover {
+    background: white;
+    color: black;
+    outline: none;
+}
+
+#message {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: black;
+    border-bottom: 2px solid orange;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    outline: none;
+    width: 500px;
+    height: 120px;
+}
+
+/*==FIN STYLE BOUTON==*/
+
+
+
+/*==TEXTE BOUTON==*/
+.textebouton {
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-size: 40px
+}
+
+/*==FIN TEXTE BOUTON==*/
+
+
+
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 6 FOOTER=================*/
+/*=================PAGE PRINCIPALE PARTIE 6 FOOTER=================*/
+/*==BOX PRINCIPALE FOOTER==*/
+#boxfooter {
+    background: black;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 390vh;
+}
+
+/*==FIN BOX PRINCIPALE FOOTER==*/
+
+
+
+/*==BOX RESERVED FOOTER==*/
+.boxreservedfooter {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*==FIN BOX RESERVED FOOTER==*/
+
+
+
+/*==TEXTE RESERVED==*/
+.textereserved {
+    color: white;
+}
+
+/*==FIN TEXTE RESERVED==*/
+
+
+
+/*==BOX NAVIGATION==*/
+.boxnavbarfooter {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+/*==FIN BOX NAVIGATION==*/
+
+
+
+/*==TEXTE NAVIGATION==*/
+.boxnavbarfooter p {
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boxnavbarfooter p a:hover {
+    color: orange;
+}
+
+.boxnavbarfooter p a {
+    text-decoration: none;
+    color: white;
+}
+
+/*==FIN TEXTE NAVIGATION==*/
+
+
+
+
+
+
+
+
+
+/* ===STYLE DE LA BARRE DE SCROLL=== */
+/*Taille du fond*/
+/*Couleur du fond*/
+::-webkit-scrollbar {
+    width: 12px;
+    background: #323232;
+}
+
+/*Couleur du bord*/
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2.5px 2px #323232;
+}
+
+/*Couleur de la barre scroll*/
+::-webkit-scrollbar-thumb {
+    background: #A3A3A3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================RESPONSIVE============================== */
+/* =============================RESPONSIVE============================== */
+
+
+
+@media screen and (max-width: 1100px) {
+
+
+    /* ==NAVBAR== */
+    .logo {
+        color: black;
+    }
+
+    .nav-links {}
+
+    .nav-link {
+        font-size: 18px;
+
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    /* == FIN NAVBAR== */
+
+
+    /* ==IMAGE FOND== */
+    .imagefond {
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        opacity: 0.5;
+    }
+
+    /* ==FIN IMAGE FOND== */
+
+
+
+
+    /* ==TITRE PRINCIPALE PAGE 1== */
+    #titre1 {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #surtitre {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .boxnousjoindre button {
+        left: 50%;
+        font-size: 20px;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* ==FIN TITRE PRINCIPALE PAGE 1== */
+
+
+
+
+
+    /* ==TITRE PRINCIPALE PAGE 2== */
+    .boxtitrejungle {
+        margin-top: 15%;
+    }
+
+    #titrejungle {
+        font-size: 50px;
+    }
+
+    /* ==FIN TITRE PRINCIPALE PAGE 2== */
+
+
+    /*==SOUS TITRE JUNGLE==*/
+    .boxsoutitrejungle {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #soutitrejungle {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /*==FIN SOUS TITRE JUNGLE==*/
+
+
+
+    /*==TEXTE JUNGLE==*/
+    .boxtextejungle {
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #textejungle {
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    /*==FIN TEXTE JUNGLE==*/
+
+
+
+    /*==BOUTON JUNGLE==*/
+    .boxboutonjungle button {
+        margin-top: 5%;
+        margin-left: 32%;
+        width: 35%;
+        height: 5%;
+        border: 3px solid orange;
+        font-size: 20px;
+    }
+
+
+    /*==STYLE IMAGE DES TETES==*/
+    #imagefond1 {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        top: 13%;
+        left: 6%;
+    }
+
+    #imagefond2 {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        top: 39%;
+        left: 6%;
+    }
+
+    #imagefond3 {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        top: 65%;
+        left: 6%;
+    }
+
+    /*==FIN STYLE IMAGE DES TETES==*/
+
+
+
+    /*==BOX TITRE A PROPOS==*/
+    .boxtitreapropos {
+        top: 18%;
+        left: 0%;
+        margin-left: 50%;
+    }
+
+    #titreapropos {
+        color: white;
+        font-size: 30px;
+    }
+
+    /*==FIN BOX TITRE A PROPOS==*/
+
+
+    /*==BOX TEXTE A PROPOS==*/
+    .boxtexte1apropos {
+        position: absolute;
+        left: 45%;
+        top: 35%;
+        width: 40%;
+        border: 2px solid orange;
+        border-radius: 30px;
+        max-width: 400px;
+        min-width: 260px;
+    }
+
+    #texte1apropos {
+        color: white;
+        font-size: 16px;
+        margin: 12;
+        text-align: center;
+    }
+
+
+    .boxtexte2apropos {
+        position: absolute;
+        left: 45%;
+        top: 60%;
+        width: 40%;
+        border: 2px solid orange;
+        border-radius: 30px;
+        max-width: 400px;
+        min-width: 260px;
+    }
+
+    #texte2apropos {
+        color: white;
+        font-size: 16px;
+        margin: 12;
+        text-align: center;
+    }
+
+    /*==FIN BOX TEXTE A PROPOS==*/
+
+
+
+    /*==TEXTE BOUTON==*/
+    .textebouton {
+        margin-top: 8%;
+        font-size: 30px
+    }
+
+    /*==FIN TEXTE BOUTON==*/
+
+
+    .boxboutoncontact input {
+        margin-top: 6%;
+    }
+
+
+
+    #message {
+        max-width: 500px;
+        min-width: 300px;
+        width: 400px;
+        height: 120px;
+        margin-top: 5%
+    }
+
+
+
+    /*==BOX RESERVED FOOTER==*/
+    .boxreservedfooter {
+        top: 85%;
+        left: 50%;
+    }
+
+    /*==FIN BOX RESERVED FOOTER==*/
+
+
+
+    /*==TEXTE RESERVED==*/
+    .textereserved {
+        font-size: 12px
+    }
+
+    /*==FIN TEXTE RESERVED==*/
+
+
+
+
+    /*==BOX NAVIGATION==*/
+    .boxnavbarfooter {
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%)
+    }
+
+    /*==FIN BOX NAVIGATION==*/
+
+
+
+    /*==TEXTE NAVIGATION==*/
+    .boxnavbarfooter p {
+        color: black;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /*==FIN TEXTE NAVIGATION==*/
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    /* ==NAVBAR== */
+    .nav-link {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+    /* == FIN NAVBAR== */
+
+
+
+    /* ==IMAGE FOND== */
+    .imagefond {
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        opacity: 0.5;
+    }
+
+    /* ==FIN IMAGE FOND== */
+
+
+
+    /* ==TITRE PRINCIPALE PAGE 1== */
+    #titre1 {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #surtitre {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .boxnousjoindre button {
+        left: 50%;
+        font-size: 18px;
+        transform: translate(-50%, -50%);
+    }
+
+    /* ==FIN TITRE PRINCIPALE PAGE 1== */
+
+    .boxboutonjungle button {
+        margin-top: 5%;
+        margin-left: 28%;
+        height: 6%;
+        width: 45%;
+    }
+
+
+
+
+
+    /*==BOX TITRE A PROPOS==*/
+    .boxtitreapropos {
+        left: 50%;
+        top: 15%;
+        width: 36%;
+    }
+
+    #titreapropos {
+        font-size: 24px;
+    }
+
+    /*==FIN BOX TITRE A PROPOS==*/
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    /*==TEXTE BOUTON==*/
+    .textebouton {
+        margin-top: 10%;
+        font-size: 20px
+    }
+
+    /*==FIN TEXTE BOUTON==*/
+
+
+    .boxboutoncontact input {
+        margin-top: 5%;
+    }
+
+
+
+    #message {
+        max-width: 400px;
+        min-width: 300px;
+        width: 400px;
+        height: 120px;
+        margin-top: 8%
+    }
+
+    /*==BOUTON JUNGLE==*/
+    .boxboutonjungle button {
+        margin-top: 5%;
+        margin-left: 32%;
+        width: 35%;
+        height: 5%;
+        border: 3px solid orange;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .nav-links {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    /* ==IMAGE FOND== */
+    .imagefond {
+        width: 100%;
+        height: 70vh;
+        opacity: 0.5;
+        top: 25vh
+    }
+
+    /* ==FIN IMAGE FOND== */
+
+
+
+    /*==BOX DE LA NAVBAR==*/
+    .navbar {
+        height: 20vh;
+    }
+
+    /*==FIN BOX DE LA NAVBAR==*/
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .logo {
+        color: white;
+        margin-left: 20%;
+    }
+
+    .boxnousjoindre button {
+        left: 50%;
+        font-size: 20px;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+    /* ==TITRE PRINCIPALE PAGE 2== */
+    .boxtitrejungle {
+        margin-top: 15%;
+    }
+
+    #titrejungle {
+        font-size: 30px;
+    }
+
+    /* ==FIN TITRE PRINCIPALE PAGE 2== */
+
+
+    /*==SOUS TITRE JUNGLE==*/
+    .boxsoutitrejungle {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #soutitrejungle {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /*==FIN SOUS TITRE JUNGLE==*/
+
+
+    /*==TEXTE JUNGLE==*/
+    .boxtextejungle {
+        margin-top: 8%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #textejungle {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    /*==FIN TEXTE JUNGLE==*/
+
+
+
+    /*==BOUTON JUNGLE==*/
+    .boxboutonjungle button {
+        margin-top: 5%;
+        margin-left: 22%;
+        width: 60%;
+        height: 7%;
+        border: 3px solid orange;
+        font-size: 15px;
+    }
+
+
+
+    /*==BOX PRINCIAPLE JUNGLE==*/
+    #boxjungle {
+        width: 100%;
+        height: 65vh;
+        background: white;
+        position: absolute;
+        top: 100vh
+    }
+
+    /*==FIN BOX PRINCIAPLE JUNGLE==*/
+
+
+    /*==BOX PRINCIPALE A PROPOS==*/
+    #boxapropos {
+        width: 100%;
+        height: 300vh;
+        background: black;
+        position: absolute;
+        top: 165vh;
+    }
+
+    /*==FIN BOX PRINCIPALE A PROPOS==*/
+
+
+
+    /*==BOX TITRE A PROPOS==*/
+    .boxtitreapropos {
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+    }
+
+    #titreapropos {
+        color: white;
+        font-size: 26px;
+        width: 100%;
+    }
+
+    /*==FIN BOX TITRE A PROPOS==*/
+
+
+    /*==BOX TEXTE A PROPOS==*/
+    .boxtexte1apropos {
+        position: absolute;
+        left: 50%;
+        top: 13%;
+        width: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    #texte1apropos {
+        color: white;
+        font-size: 16px;
+    }
+
+    .boxtexte2apropos {
+        position: absolute;
+        left: 50%;
+        top: 23%;
+        width: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    #texte2apropos {
+        color: white;
+        font-size: 16px;
+    }
+
+    /*==FIN BOX TEXTE A PROPOS==*/
+
+
+
+    /*==STYLE IMAGE DES TETES==*/
+    #imagefond1 {
+        height: 250px;
+        width: 250px;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #imagefond2 {
+        height: 250px;
+        width: 250px;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #imagefond3 {
+        height: 250px;
+        width: 250px;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /*==FIN STYLE IMAGE DES TETES==*/
+
+
+
+
+
+
+
+    /*==BOX PRINCIPALE CONTACT==*/
+    #boxprincipalecontact {
+        background: white;
+        width: 100%;
+        height: 70vh;
+        position: absolute;
+        top: 390vh;
+    }
+
+    /*==FIN BOX PRINCIPALE CONTACT==*/
+
+
+    .textebouton {
+        margin-top: 5%;
+        font-size: 30px
+    }
+
+    /*==FIN TEXTE BOUTON==*/
+
+
+
+    .boxboutoncontact input {
+        display: block;
+        margin-left: 50%;
+        margin-top: 15%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    #message {
+        width: 200px;
+        height: 100px;
+    }
+
+
+
+
+
+
+    #boxfooter {
+        background: black;
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 460vh;
+    }
+
+    /*==FIN BOX PRINCIPALE FOOTER==*/
+
+
+
+
+    /*==BOX NAVIGATION==*/
+    .boxnavbarfooter {
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    /*==FIN BOX NAVIGATION==*/
+
+
+
+    /*==TEXTE NAVIGATION==*/
+    .boxnavbarfooter p {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 14px
+    }
+
+
+
+    /*==BOX RESERVED FOOTER==*/
+    .boxreservedfooter {
+        top: 75%;
+        left: 50%;
+    }
+
+    /*==FIN BOX RESERVED FOOTER==*/
+
+
+
+    /*==TEXTE RESERVED==*/
+    .textereserved {
+        font-size: 8px
+    }
+
+    /*==FIN TEXTE RESERVED==*/
+
+
+
+
+
+}

@@ -1,0 +1,1104 @@
+/*===========================PAGE CSS===========================*/
+/*===========================PAGE CSS===========================*/
+/*===========================PAGE CSS===========================*/
+
+
+
+/*==IMPORTATION POLICE==*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/*==FIN IMPORTATION POLICE==*/
+
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 1 SERVICES=================*/
+/*=================PAGE PRINCIPALE PARTIE 1 SERVICES=================*/
+/*==STYLE DE LA PAGE==*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*==FIN STYLE DE LA PAGE==*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*==BOX DE LA NAVBAR==*/
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    background: black;
+    position: fixed;
+    z-index: 20;
+}
+
+/*==FIN BOX DE LA NAVBAR==*/
+
+
+
+
+/*==BOX DU LOGO==*/
+.logo-container,
+.nav-links {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+/*==FIN BOX DU LOGO==*/
+
+
+
+
+/*==STYLE DU LOGO==*/
+.logo {
+    font-weight: 500;
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+nav {
+    flex: 1;
+}
+
+/*==FIN STYLE DU LOGO==*/
+
+
+
+
+/*==STYLE DES BOUTONS NAVBAR==*/
+.nav-links {
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-bottom: 2px orange solid;
+}
+
+/*==FIN STYLE DES BOUTONS NAVBAR==*/
+
+
+
+
+
+
+
+/*==STYLE DU FOND DE LA PAGE PRINCIPALE==*/
+/* couleur vert #020B05*/
+#backgroundprincipale {
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/*==FIN STYLE DU FOND DE LA PAGE PRINCIPALE==*/
+
+.boxtitreservicespage1 {
+    position: absolute;
+    top: 10%;
+    background: black;
+    width: 50%;
+    height: 20%;
+}
+
+.titreservicespage1 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+#orangebarre {
+    color: orange;
+    border-bottom: 6px solid orange;
+}
+
+#orange {
+    color: orange;
+}
+
+/*==STYLE DE L'IMAGE==*/
+.imagefond {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    height: 20%;
+    top: 10%;
+}
+
+/*==FIN STYLE DE L'IMAGE==*/
+
+
+/*==BOX BOUTON JUNGLE==*/
+
+
+.boxboutonjungle button {
+    margin-top: 5%;
+    margin-left: 28%;
+    margin-left: 28%;
+    width: 46%;
+    height: 13%;
+    border: 4px solid orange;
+    border-radius: 50px;
+    background: white;
+    color: black;
+    font-size: 25px;
+    outline: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.boxboutonjungle button:hover {
+    background: orange;
+    cursor: pointer;
+    outline: none;
+
+}
+
+/*==FIN BOX BOUTON JUNGLE==*/
+
+
+
+
+
+
+#boxprincipaleservice {
+    background: white;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 30vh;
+}
+
+#boxtitreservices {
+    margin-top: 3%
+}
+
+
+.boxsoustitre {
+    margin-top: 3%;
+}
+
+.soutitre {
+    text-align: center;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.boxsousoutitre {
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sousoutitre {
+    font-size: 25px;
+    text-align: center;
+}
+
+#soutexte {
+    margin-top: 5%;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 2 SERVICE 2 =================*/
+/*=================PAGE PRINCIPALE PARTIE 2 SERVICE 2=================*/
+/*==BOX PRINCIAPLE SERVICE 2==*/
+#boxjungle {
+    width: 100%;
+    height: 70vh;
+    background: black;
+    position: absolute;
+    top: 100vh
+}
+
+/*==FIN BOX PRINCIAPLE SERVICE 2==*/
+
+
+
+
+
+
+
+
+.boxservices1 {
+    background: black;
+    width: 25%;
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    height: 32.5%;
+    border: 2px solid orange;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.titreservices1 {
+    color: orange;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 30px;
+    border-left: 2px solid orange;
+    padding-left: 2%;
+}
+
+.texteservices1 {
+    color: white;
+    font-size: 15px;
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+.boxservices2 {
+    background: black;
+    width: 25%;
+    position: absolute;
+    left: 6%;
+    top: 47%;
+    height: 32.5%;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin-top: 2%;
+    overflow: auto;
+}
+
+.titreservices2 {
+    color: orange;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 30px;
+    border-left: 2px solid orange;
+    padding-left: 2%;
+}
+
+.texteservices2 {
+    color: white;
+    font-size: 15px;
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+
+.boxservices3 {
+    background: black;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    height: 40%;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin-top: 2%;
+    overflow: auto;
+}
+
+.titreservices3 {
+    color: orange;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 30px;
+    border-left: 2px solid orange;
+    padding-left: 2%;
+}
+
+.texteservices3 {
+    color: white;
+    font-size: 15px;
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+.boxservices4 {
+    background: black;
+    width: 25%;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    height: 70%;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin-top: 2%;
+    overflow: auto;
+}
+
+.titreservices4 {
+    color: orange;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 30px;
+    border-left: 2px solid orange;
+    padding-left: 2%;
+}
+
+.texteservices4 {
+    color: white;
+    font-size: 15px;
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+/*=================PAGE PRINCIPALE PARTIE 6 FOOTER=================*/
+/*=================PAGE PRINCIPALE PARTIE 6 FOOTER=================*/
+/*==BOX PRINCIPALE FOOTER==*/
+#boxfooter {
+    background: white;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 170vh;
+}
+
+/*==FIN BOX PRINCIPALE FOOTER==*/
+
+
+
+/*==BOX RESERVED FOOTER==*/
+.boxreservedfooter {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*==FIN BOX RESERVED FOOTER==*/
+
+
+
+/*==TEXTE RESERVED==*/
+.textereserved {
+    color: black;
+}
+
+/*==FIN TEXTE RESERVED==*/
+
+
+
+/*==BOX NAVIGATION==*/
+.boxnavbarfooter {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+/*==FIN BOX NAVIGATION==*/
+
+
+
+/*==TEXTE NAVIGATION==*/
+.boxnavbarfooter p {
+    color: orange;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boxnavbarfooter p a:hover {
+    color: orange;
+}
+
+.boxnavbarfooter p a {
+    text-decoration: none;
+    color: black;
+}
+
+/*==FIN TEXTE NAVIGATION==*/
+
+
+
+
+
+
+
+
+
+
+/* ===STYLE DE LA BARRE DE SCROLL=== */
+/*Taille du fond*/
+/*Couleur du fond*/
+::-webkit-scrollbar {
+    width: 12px;
+    background: #323232;
+}
+
+/*Couleur du bord*/
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2.5px 2px #323232;
+}
+
+/*Couleur de la barre scroll*/
+::-webkit-scrollbar-thumb {
+    background: #A3A3A3;
+}
+
+
+
+
+
+/* =============================RESPONSIVE============================== */
+/* =============================RESPONSIVE============================== */
+
+
+@media screen and (max-width: 1100px) {
+
+    /* ==NAVBAR== */
+    .logo {
+        color: black;
+    }
+
+    .nav-links {}
+
+    .nav-link {
+        font-size: 18px;
+
+    }
+
+    .navbar {
+        display: block;
+    }
+
+
+    /* ==TITRE PRINCIPALE PAGE 1== */
+    #titre1 {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #surtitre {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .boxboutonjungle button {
+        font-size: 16px;
+        height: 10%;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 10%
+    }
+
+    /* ==FIN TITRE PRINCIPALE PAGE 1== */
+
+
+    #boxprincipaleservice {
+        background: white;
+        width: 100%;
+        height: 80vh;
+        position: absolute;
+        top: 30vh;
+    }
+
+
+
+    /*==BOX PRINCIAPLE SERVICE 2==*/
+    #boxjungle {
+        width: 100%;
+        height: 170vh;
+        background: black;
+        position: absolute;
+        top: 110vh
+    }
+
+    /*==FIN BOX PRINCIAPLE SERVICE 2==*/
+
+
+
+
+
+    /*==BOX PRINCIPALE FOOTER==*/
+    #boxfooter {
+        background: white;
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 280vh;
+    }
+
+    /*==FIN BOX PRINCIPALE FOOTER==*/
+
+
+
+
+    .boxservices1 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        height: 16%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        overflow: auto;
+    }
+
+    .titreservices1 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 30px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices1 {
+        color: white;
+        font-size: 15px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+
+    .boxservices2 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 27%;
+        height: 16%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        margin-top: 2%;
+        overflow: auto;
+    }
+
+    .titreservices2 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 30px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices2 {
+        color: white;
+        font-size: 15px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+
+
+    .boxservices3 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 46%;
+        height: 19%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        margin-top: 2%;
+        overflow: auto;
+    }
+
+    .titreservices3 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 30px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices3 {
+        color: white;
+        font-size: 15px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+
+
+    .boxservices4 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 68%;
+        height: 27%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        margin-top: 2%;
+        overflow: auto;
+    }
+
+    .titreservices4 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 30px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices4 {
+        color: white;
+        font-size: 15px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+
+    /*==BOX RESERVED FOOTER==*/
+    .boxreservedfooter {
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, 50%)
+    }
+
+    /*==FIN BOX RESERVED FOOTER==*/
+
+    /*==TEXTE RESERVED==*/
+    .textereserved {
+        font-size: 10px
+    }
+
+    /*==FIN TEXTE RESERVED==*/
+
+    /*==BOX NAVIGATION==*/
+    .boxnavbarfooter {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    /*==FIN BOX NAVIGATION==*/
+
+
+
+    /*==TEXTE NAVIGATION==*/
+    .boxnavbarfooter p {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 14px
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    /*==BOX RESERVED FOOTER==*/
+    .boxreservedfooter {
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    /*==FIN BOX RESERVED FOOTER==*/
+
+    /*==TEXTE RESERVED==*/
+    .textereserved {
+        font-size: 10px;
+    }
+
+    /*==FIN TEXTE RESERVED==*/
+
+    /*==BOX NAVIGATION==*/
+    .boxnavbarfooter {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /*==FIN BOX NAVIGATION==*/
+
+
+
+    /*==TEXTE NAVIGATION==*/
+    .boxnavbarfooter p {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+
+    .boxtitreservicespage1 {
+        position: absolute;
+        top: 20%;
+        background: black;
+        width: 100%;
+        height: 15%;
+    }
+
+    .imagefond {
+        width: 100%;
+        height: 16vh;
+        opacity: 1;
+        top: 35%;
+        left: 0;
+    }
+
+    .titreservicespage1 {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 40px;
+    }
+
+
+
+    /*==BOX DE LA NAVBAR==*/
+    .navbar {
+        height: 20vh;
+    }
+
+    /*==FIN BOX DE LA NAVBAR==*/
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+
+    .nav-links {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    .logo {
+        font-size: 20px;
+        position: absolute;
+        top: 25%;
+        color: white;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+
+    #boxprincipaleservice {
+        background: white;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 50vh;
+    }
+
+
+    .soutitre {
+        text-align: center;
+        font-size: 30px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 20%;
+    }
+
+
+    .sousoutitre {
+        font-size: 18px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%
+    }
+
+    #soutexte {
+        margin-top: 10%;
+        font-size: 16px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        border: 2px solid orange;
+        border-radius: 30px;
+    }
+
+
+    .boxboutonjungle button {
+        margin-top: 10%;
+        width: 50%;
+        height: 8%;
+        border: 4px solid orange;
+        border-radius: 50px;
+        background: white;
+        color: black;
+        font-size: 14px;
+        outline: none;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+
+    /*==BOX PRINCIAPLE SERVICE 2==*/
+    #boxjungle {
+        width: 100%;
+        height: 180vh;
+        background: black;
+        position: absolute;
+        top: 140vh
+    }
+
+    /*==FIN BOX PRINCIAPLE SERVICE 2==*/
+
+    .boxservices1 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        height: 15%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        overflow: auto;
+        height: 12%;
+    }
+
+    .titreservices1 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 24px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices1 {
+        color: white;
+        font-size: 14px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+
+    .boxservices2 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        height: 15%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        margin-top: 5%;
+        overflow: auto;
+        height: 12%;
+    }
+
+    .titreservices2 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 24px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices2 {
+        color: white;
+        font-size: 14px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+
+
+
+
+    .boxservices3 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        height: 35%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        margin-top: -5%;
+        overflow: auto;
+        height: 18%;
+    }
+
+    .titreservices3 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 24px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices3 {
+        color: white;
+        font-size: 15px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+
+
+
+
+    .boxservices4 {
+        background: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        height: 45%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        margin-top: 2%;
+        overflow: auto;
+        height: 27%;
+    }
+
+    .titreservices4 {
+        color: orange;
+        margin-left: 4%;
+        margin-top: 2%;
+        font-size: 24px;
+        border-left: 2px solid orange;
+        padding-left: 2%;
+    }
+
+    .texteservices4 {
+        color: white;
+        font-size: 15px;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+
+
+
+
+    /*==BOX PRINCIPALE FOOTER==*/
+    #boxfooter {
+        background: white;
+        width: 100%;
+        height: 40vh;
+        position: absolute;
+        top: 320vh;
+    }
+
+    /*==FIN BOX PRINCIPALE FOOTER==*/
+
+
+
+    /*==BOX NAVIGATION==*/
+    .boxnavbarfooter {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 40%;
+    }
+
+    /*==FIN BOX NAVIGATION==*/
+
+
+
+    /*==TEXTE NAVIGATION==*/
+    .boxnavbarfooter p {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 14px
+    }
+
+
+
+    /*==BOX RESERVED FOOTER==*/
+    .boxreservedfooter {
+        top: 90%;
+        left: 50%;
+    }
+
+    /*==FIN BOX RESERVED FOOTER==*/
+
+
+
+    /*==TEXTE RESERVED==*/
+    .textereserved {
+        font-size: 10px
+    }
+
+    /*==FIN TEXTE RESERVED==*/
+
+}
+
